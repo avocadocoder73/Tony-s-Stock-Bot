@@ -36,7 +36,7 @@ client.on('ready', () => {
 client.on("message", msg => {
 
     if(msg.content === "-gotu")
-        msg.channel.send("The price of Gaotu Techedu is $" + price);
+        msg.channel.send({embeds: ["The price of Gaotu Techedu is $" + price]});
       
     
 
