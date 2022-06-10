@@ -1,0 +1,21 @@
+{
+  "name": "tonysdiscordbot",
+  "version": "1.0.0",
+  "description": "this is his discord bot",
+  "main": "discordbot.js",
+  "scripts": {
+    "start": "node discordbot.js",
+    "devStart": "nodemon discordbot.js"
+  },
+  "author": "ahmeddaGAWD",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "finnhub": "^1.2.14",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
