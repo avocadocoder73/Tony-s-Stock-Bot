@@ -3,7 +3,7 @@ const finnhub = require('finnhub');
 const BOT_PREFIX = "/"
 const Discord = require('discord.js')
 const api_key = finnhub.ApiClient.instance.authentications['api_key'];
-api_key.apiKey = "cah7062ad3i2d29fju3g"
+api_key.apiKey = YOUR API KEY HERE
 const finnhubClient = new finnhub.DefaultApi()
 
  
